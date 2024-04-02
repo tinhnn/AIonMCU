@@ -1,6 +1,7 @@
 #include "main_thread.h"
 #include "model_lstm.h"
 
+extern uint8_t RevFlg;
 
 /* Main Thread entry function */
 void main_thread_entry(void)

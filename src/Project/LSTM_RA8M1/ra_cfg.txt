@@ -750,3 +750,7 @@ FSP Configuration
     Auto start: Enabled
     Time slicing interval (ticks): 1
     
+  Object "g_cdcacm_event_flags0 Event Flags"
+    Name: USB CDCACM Evt
+    Symbol: g_cdcacm_event_flags0
+    

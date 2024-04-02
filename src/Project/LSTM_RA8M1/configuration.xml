@@ -335,6 +335,10 @@
       <property id="module.driver.transfer.offset" value="1"/>
       <property id="module.driver.transfer.src.buffer" value="1"/>
     </module>
+    <object id="rtos.threadx.object.flags.1477833382">
+      <property id="rtos.threadx.object.flags.name" value="USB CDCACM Evt"/>
+      <property id="rtos.threadx.object.flags.symbol" value="g_cdcacm_event_flags0"/>
+    </object>
     <context id="_hal.0">
       <stack module="module.driver.ioport_on_ioport.0"/>
     </context>
