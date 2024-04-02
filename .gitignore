@@ -18,7 +18,7 @@
 
 # Libraries
 *.lib
-*.a
+#*.a
 *.la
 *.lo
 
@@ -41,6 +41,9 @@
 *.su
 *.idb
 *.pdb
+*.vscode/
+*.settings/
+[Dd]ebug/
 
 # Kernel Module Compile Results
 *.mod*
