@@ -32,14 +32,21 @@ codegen -config cfg my_predict -args {testNormal} -report
 ```
 
 ## Porting for [RA8M1](https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra8m1-480-mhz-arm-cortex-m85-based-microcontroller-helium-and-trustzone)
-1. copy all file `*.cpp` and `*.h` in generate folder to folder `src` of e2studio project
-![source](Image/src.png)
-copy `tmwtypes.h` to `src` folder
+
+1. copy all file `*.cpp` and `*.h` in generate folder to folder `src` of e2studio project:
+
+    ![source](Image/src.png)
+
+    copy `tmwtypes.h` to `src` folder
+
 2. Config project:
+   
     Stack size is 32kB:
+   
     ![Stack](Image/stack.png)
 
     Enable Data Cache:
+
     ![Cache](Image/cache.png)
 
 
